@@ -19,10 +19,6 @@ Carlos Palacios Macedo
   <platform name="android">
     <preference name="Fullscreen" value="true" />
 	<preference name="orientation" value="portrait" />
-	<splash src="screen/splash-land-hdpi.png" density="land-hdpi"/>
-    <splash src="screen/splash-land-ldpi.png" density="land-ldpi"/>
-    <splash src="screen/splash-land-mdpi.png" density="land-mdpi"/>
-    <splash src="screen/splash-land-xhdpi.png" density="land-xhdpi"/>
   </platform>
   
     <platform name="ios">
