@@ -34,6 +34,8 @@ Carlos Palacios Macedo
     <plugin name="cordova-plugin-device-motion" />
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-geolocation" />
+	<plugin name="cordova-plugin-whitelist" spec="~1" />
+	<plugin name="cordova-plugin-inappbrowser"/>
 		
 	<access origin="*" />
 		
@@ -49,9 +51,7 @@ Carlos Palacios Macedo
 <access origin="*" launch-external="yes" />
 <allow-navigation href="*" />
 	
-	<feature name="InAppBrowser">
-    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
+
 
 <!-- fin agregados -->
 	
