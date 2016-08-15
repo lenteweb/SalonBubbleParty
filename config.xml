@@ -34,8 +34,26 @@ Carlos Palacios Macedo
     <plugin name="cordova-plugin-device-motion" />
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-geolocation" />
-	
+		
 	<access origin="*" />
+		
+	<!-- agregados -->
+	
+<access origin="*" launch-external="yes" />
+<access origin="http://salonbubbleparty.com/" />
+<access origin="sms:*" launch-external="yes" />
+<access origin="geo:*" launch-external="yes" />
+<access origin="http://salonbubbleparty.com/*" launch-external="yes" />
+<access origin="http://*" launch-external="yes" />
+<access origin="https://*" launch-external="yes" />
+<access origin="*" launch-external="yes" />
+<allow-navigation href="*" />
+	
+	<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+
+<!-- fin agregados -->
 	
 	<plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
