@@ -19,6 +19,10 @@ Carlos Palacios Macedo
   <platform name="android">
     <preference name="Fullscreen" value="true" />
 	<preference name="orientation" value="portrait" />
+	<splash src="screen/splash-land-hdpi.png" density="land-hdpi"/>
+    <splash src="screen/splash-land-ldpi.png" density="land-ldpi"/>
+    <splash src="screen/splash-land-mdpi.png" density="land-mdpi"/>
+    <splash src="screen/splash-land-xhdpi.png" density="land-xhdpi"/>
   </platform>
   
     <platform name="ios">
@@ -50,16 +54,6 @@ Carlos Palacios Macedo
 <access origin="https://*" launch-external="yes" />
 <access origin="*" launch-external="yes" />
 <allow-navigation href="*" />
-
-    <!-- Define app splash screen for each platform. -->
-	
-    <gap:splash src="screen/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="screen/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="screen/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="screen/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
-
-	
-
 
 <!-- fin agregados -->
 	
