@@ -52,13 +52,12 @@ Carlos Palacios Macedo
 <allow-navigation href="*" />
 
     <!-- Define app splash screen for each platform. -->
-	<gap:config-file>
+	
     <gap:splash src="screen/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="screen/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="screen/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
     <gap:splash src="screen/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
     <string>100</string>
-    </gap:config-file>
 	
 
 
