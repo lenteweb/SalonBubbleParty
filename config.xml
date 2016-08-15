@@ -42,7 +42,7 @@ Carlos Palacios Macedo
 	<!-- agregados -->
 	
 <access origin="*" launch-external="yes" />
-<access origin="http://salonbubbleparty.com/" />
+<access origin="http://salonbubbleparty.com/servicios/" />
 <access origin="sms:*" launch-external="yes" />
 <access origin="geo:*" launch-external="yes" />
 <access origin="http://salonbubbleparty.com/*" launch-external="yes" />
