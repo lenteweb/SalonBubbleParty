@@ -12,10 +12,10 @@ Salón de fiestas Climatizado en Tampico, Tamaulipas
 Carlos Palacios Macedo
 </autor>
 
- <hook type="after_plugin_install" src="scripts/install_plugins.js" />
-
  <icon src="icon.png" />
-   
+
+ <hook type="after_plugin_install" src="scripts/install_plugins.js" />
+ 
   <platform name="android">
     <preference name="Fullscreen" value="true" />
 	<preference name="orientation" value="portrait" />
