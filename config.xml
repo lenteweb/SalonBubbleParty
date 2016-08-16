@@ -21,6 +21,10 @@ Carlos Palacios Macedo
 	<preference name="orientation" value="portrait" />
   </platform>
   
+    <platform name="ios">
+    <preference name="Fullscreen" value="true" />
+		<preference name="orientation" value="portrait" />
+  </platform>
   
       <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	  <preference name="DisallowOverscroll" value="true"/>
@@ -31,7 +35,7 @@ Carlos Palacios Macedo
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-geolocation" />
 	<plugin name="cordova-plugin-whitelist" spec="~1" />
-	<plugin name="cordova-plugin-inappbrowser"/>
+	<plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
 		
 	<access origin="*" />
 		
@@ -45,6 +49,7 @@ Carlos Palacios Macedo
 <access origin="http://*" launch-external="yes" />
 <access origin="https://*" launch-external="yes" />
 <access origin="*" launch-external="yes" />
+<allow-navigation href="*" />
 
 
 <!-- fin agregados -->
