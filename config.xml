@@ -45,11 +45,18 @@ Carlos Palacios Macedo
 <access origin="http://salonbubbleparty.com/servicios/" />
 <access origin="sms:*" launch-external="yes" />
 <access origin="geo:*" launch-external="yes" />
-<access origin="http://salonbubbleparty.com/*" launch-external="yes" />
+<access origin="http://salonbubbleparty.com/servicios/*" launch-external="yes" />
 <access origin="http://*" launch-external="yes" />
 <access origin="https://*" launch-external="yes" />
 <access origin="*" launch-external="yes" />
 <allow-navigation href="*" />
+
+   <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+    <string>100</string>
+    </gap:config-file>
 
 <!-- fin agregados -->
 	
