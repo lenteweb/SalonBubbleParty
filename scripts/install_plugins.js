@@ -10,8 +10,8 @@ var pluginlist = [
     "org.apache.cordova.device-motion",
     "org.apache.cordova.device-orientation",
     "org.apache.cordova.geolocation",
-	"org.apache.cordova.inappbrowser.InAppBrowser"
-	
+	"org.apache.cordova.inappbrowser",
+	"https://github.com/chrisekelley/AppPreferences/"
     
 ];
 

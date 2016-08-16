@@ -35,7 +35,7 @@ Carlos Palacios Macedo
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-geolocation" />
 	<plugin name="cordova-plugin-whitelist" spec="~1" />
-	<plugin name="cordova-plugin-inappbrowser"/>
+	<plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
 		
 	<access origin="*" />
 		
