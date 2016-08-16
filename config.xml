@@ -12,10 +12,10 @@ Salón de fiestas Climatizado en Tampico, Tamaulipas
 Carlos Palacios Macedo
 </autor>
 
- <icon src="icon.png" />
-
  <hook type="after_plugin_install" src="scripts/install_plugins.js" />
- 
+
+ <icon src="icon.png" />
+   
   <platform name="android">
     <preference name="Fullscreen" value="true" />
 	<preference name="orientation" value="portrait" />
@@ -41,15 +41,11 @@ Carlos Palacios Macedo
 		
 	<!-- agregados -->
 	
-<access origin="*" launch-external="yes" />
+
 <access origin="http://salonbubbleparty.com/servicios/" />
-<access origin="sms:*" launch-external="yes" />
-<access origin="geo:*" launch-external="yes" />
+
 <access origin="http://salonbubbleparty.com/servicios/*" launch-external="yes" />
-<access origin="http://*" launch-external="yes" />
-<access origin="https://*" launch-external="yes" />
-<access origin="*" launch-external="yes" />
-<allow-navigation href="*" />
+
 
 
 <!-- fin agregados -->
