@@ -17,12 +17,12 @@ Carlos Palacios Macedo
  <icon src="icon.png" />
    
   <platform name="android">
-    <preference name="Fullscreen" value="true" />
+    <preference name="Fullscreen" value="false" />
 	<preference name="orientation" value="default" />
   </platform>
   
     <platform name="ios">
-    <preference name="Fullscreen" value="true" />
+    <preference name="Fullscreen" value="false" />
 		<preference name="orientation" value="default" />
   </platform>
   
