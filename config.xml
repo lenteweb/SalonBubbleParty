@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns = "http://wwww.w3.org/ns/widgets"
-id = "com.salonbubbleparty" version = "1.1.0">
+id = "com.salonbubbleparty.BubbleParty" version = "1.1.0"
+		ios-CFBundleVersion="1.1.0">
 
 <name>Salon Bubble Party App</name>
 
@@ -17,14 +18,41 @@ Carlos Palacios Macedo
  <icon src="icon.png" />
    
   <platform name="android">
+    <preference name="android-minSdkVersion" value="18" />
+    <allow-intent href="market:*" />
     <preference name="Fullscreen" value="false" />
 	<preference name="orientation" value="default" />
   </platform>
   
-    <platform name="ios">
+  <platform name="ios">
+	<allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
     <preference name="Fullscreen" value="false" />
-		<preference name="orientation" value="default" />
+	<preference name="orientation" value="default" />
+	<preference name="prerendered-icon" value="true" />
   </platform>
+  
+    <platform name="ios">
+        <icon src="res/icon/ios/icon.png" platform="ios" width="58" height="58" />
+        <icon src="res/icon/ios/icon@2x.png" platform="ios" width="114" height="114" />
+        <icon src="res/icon/ios/icon-40.png" platform="ios" width="40" height="40" />
+        <icon src="res/icon/ios/icon-40@2x.png" platform="ios" width="80" height="80" />
+        <icon src="res/icon/ios/icon-50.png" platform="ios" width="50" height="50" />
+        <icon src="res/icon/ios/icon-50@2x.png" platform="ios" width="100" height="100" />
+        <icon src="res/icon/ios/icon-60.png" platform="ios" width="60" height="60" />
+        <icon src="res/icon/ios/icon-60@2x.png" platform="ios" width="120" height="120" />
+        <icon src="res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
+        <icon src="res/icon/ios/icon-72.png" platform="ios" width="72" height="72" />
+        <icon src="res/icon/ios/icon-72@2x.png" platform="ios" width="144" height="144" />
+        <icon src="res/icon/ios/icon-76.png" platform="ios" width="76" height="76" />
+        <icon src="res/icon/ios/icon-76@2x.png" platform="ios" width="152" height="152" />
+        <icon src="res/icon/ios/icon-small.png" platform="ios" width="29" height="29" />
+        <icon src="res/icon/ios/icon-small@2x.png" platform="ios" width="58" height="58" />
+        <icon src="res/icon/ios/icon-small@3x.png" platform="ios" width="87" height="87" />
+		<icon src="res/icon/ios/icon-167.png" platform="ios" width="167" height="167" />
+		<icon src="res/icon/ios/icon-1024.png" platform="ios" width="1024" height="1024" />
+    </platform>
+
   
       <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	  <preference name="DisallowOverscroll" value="true"/>
@@ -37,14 +65,15 @@ Carlos Palacios Macedo
 	<plugin name="cordova-plugin-whitelist" spec="~1" />
 	<plugin name="cordova-plugin-inappbrowser"/>
 		
+    <content src="index.html" />
 	<access origin="*" />
 		
 	<!-- agregados -->
 	
 
-<access origin="http://salonbubbleparty.com/servicios/" />
+    <access origin="http://salonbubbleparty.com/servicios/" />
 
-<access origin="http://salonbubbleparty.com/servicios/*" launch-external="yes" />
+    <access origin="http://salonbubbleparty.com/servicios/*" launch-external="yes" />
 
 
 
