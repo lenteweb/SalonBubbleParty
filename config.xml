@@ -65,7 +65,7 @@ Carlos Palacios Macedo
 	<plugin name="cordova-plugin-whitelist" spec="~1" />
 	<plugin name="cordova-plugin-inappbrowser"/>
 		
-    <content src="index.html" />
+    <content src="www/index.html" />
 	<access origin="*" />
 		
 	<!-- agregados -->
