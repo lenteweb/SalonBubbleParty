@@ -37,11 +37,13 @@ Carlos Palacios Macedo
   </platform>
   
   <platform name="ios">
-	<allow-intent href="itms:*" />
-    <allow-intent href="itms-apps:*" />
     <preference name="Fullscreen" value="false" />
 	<preference name="orientation" value="all" />
 	<preference name="prerendered-icon" value="true" />
+	<preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
   </platform>
   
     <platform name="ios">
