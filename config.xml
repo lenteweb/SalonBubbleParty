@@ -97,17 +97,7 @@ Carlos Palacios Macedo
     <content src="index.html" />
 	<access origin="*" />
 		
-	<!-- agregados -->
-	
 
-    <access origin="http://salonbubbleparty.com/servicios/" />
-
-    <access origin="http://salonbubbleparty.com/servicios/*" launch-external="yes" />
-
-
-
-<!-- fin agregados -->
-	
 	<plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
